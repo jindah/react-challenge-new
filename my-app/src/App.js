@@ -4,6 +4,8 @@ import css from './App.module.css';
 // import NavBarForm from './components/NavBarForm.js';
 // import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       {/* <NavBarForm /> */} 
       {/* <RenderingLists /> */}
       <Content />
+      {/* <LifeCyclesCWU /> */}
     </div>
   );
 }
