@@ -4,6 +4,7 @@ import css from './css/NavBarSimple.module.css';
 class NavBarSimple extends React.Component {
     constructor(props) {
       super(props);
+      
       this.state = {
         introduction: "Hello, guest!",
         buttonText: "log in",
