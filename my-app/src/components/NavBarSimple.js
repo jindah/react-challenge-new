@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './css/NavBarSimple.module.css';
 
-class NavBar extends React.Component {
+class NavBarSimple extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
@@ -35,4 +35,4 @@ class NavBar extends React.Component {
     }
   }
 
-export default NavBar;
+export default NavBarSimple;
