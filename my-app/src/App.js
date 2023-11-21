@@ -4,10 +4,10 @@ import css from './App.module.css';
 // import NavBarForm from './components/NavBarForm.js';
 // import RenderingLists from './components/RenderingLists';
 // import ControlledForm from './components/ControlledForm';
-// import Content from './components/Content';
+import Content from './components/Content';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import UnControlledForm from './components/UnControlledForm';
-import SearchBar from './components/SearchBar';
+// import SearchBar from './components/SearchBar';
 
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
       {/* <div><NavBarSimple /></div> */}
       {/* <NavBarForm /> */} 
       {/* <RenderingLists /> */}
-      {/* <Content /> */}
+      <Content />
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
       {/* <UnControlledForm /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
     </div>
   );
 }
