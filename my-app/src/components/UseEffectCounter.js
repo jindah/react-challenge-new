@@ -9,8 +9,11 @@ function UseEffectCounter() {
     useEffect(()=>{
         const interval = setInterval(() => {
             setTime(time => time + 1)
-        }, 1000)
-    }, [])
+        }, 1000);
+        return () => {
+            clearInterval(interval);
+        }
+    }, []);
   return (
     <div>
         <button onClick={
