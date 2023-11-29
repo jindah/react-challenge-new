@@ -1,4 +1,7 @@
 import css from './App.module.css';
+import HTTPHooks from './components/HTTPHooks';
+// import HTTPPost from './components/HTTPPost';
+// import HTTPRequest from './components/HTTPRequest';
 // import Linkit from './components/Sidebar.js';
 // import NavBarSimple from './components/NavBarSimple.js';
 // import NavBarForm from './components/NavBarForm.js';
@@ -13,7 +16,8 @@ import css from './App.module.css';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectsCounterContainer from './components/UseEffectsCounterContainer';
-import ContentHooks from './components/ContentHooks';
+// import ContentHooks from './components/ContentHooks';
+
 
 function App() {
   return (
@@ -32,7 +36,10 @@ function App() {
       {/* <UseStateWithObjects /> */}
       {/* <UseEffectCounter /> */}
       {/* <UseEffectsCounterContainer /> */}
-      <ContentHooks />
+      {/* <ContentHooks /> */}
+      {/* <HTTPRequest /> */}
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div>
   );
 }
